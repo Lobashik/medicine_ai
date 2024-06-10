@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Я бросаю</title>
+    <link rel="stylesheet" href="css/messengerStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <main>
+        <section class="main">
+            <div class="main__chats">
+                <div class="main__chats__header">
+                    <div class="main__chats__header__head">
+                        <div class="main__chats__header__head_tools">
+                            <a href="registration.html"><button class="main__chats__header__head_tools-exit" onclick="">Выйти</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__chats__body" id="main__chats__body">
+                    <div class="main__chats__body__container">
+                        <img class="main__chats__body__container__avatar" src="../src/img/avatar_mini.svg" alt="❤">
+                        <div class="main__chats__body__container__title">
+                            <p class="main__chats__body__container__title_name">Александр Иванович</p>
+                            <p class="main__chats__body__container__title_text">Привет! Я курю с 15 лет решил бросить, потому что решил бросить</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__chats__recommendations">
+                </div>
+            </div> 
+            <div class="main__dialog">
+                <div class="main__dialog__empty">
+                    <img class="main__dialog__empty_cat" src="../src/img/dialog_cat.svg" alt="<3">
+                    <p class="main__dialog__empty_title">Найдите себе собеседника <br> в разделе “Рекомендованные друзья”</p>
+                </div>
+                <div class="main__dialog__container">
+                    <div class="main__dialog__container__body">
+                    </div>
+                    <div class="main__dialog__container__bottom">
+                        <button type="button" class="main__dialog__container__bottom_emoji"></button>
+                        <input class="main__dialog__container__bottom_input" type="text" name="textInput" id="textInput">
+                        <button type="button" class="main__dialog__container__bottom_file"></button>
+                        <button class="main__dialog__container__bottom_send" type="button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/messengerScript.js"></script>
+</body>
+
+</html>
