@@ -124,8 +124,6 @@ header {
   flex-direction: column;
 }
 .main .main__chats .main__chats__header {
-  height: 150px;
-  padding: 10px 15px;
   display: flex;
   flex-direction: column;
 }
@@ -309,13 +307,15 @@ header {
 .main .main__dialog .main__dialog__container .main__dialog__container__body {
   height: 91%;
   overflow-y: auto;
-  background-image: url("../img/chat_background.svg");
+  background-image: url("../img/chat_background.jpg");
   background-position: center;
   background-size: cover;
   padding: 50px;
   display: flex;
   flex-direction: column-reverse;
   align-items: end;
+  overflow: hidden;
+  border-top-right-radius: 9px;
 }
 .main .main__dialog .main__dialog__container .main__dialog__container__body .main__dialog__container__body_info {
   width: 100%;
@@ -420,3 +420,17 @@ header {
 }
 
 /*# sourceMappingURL=messengerStyle.css.map */
+
+/* CSS for user message */
+.user-message {
+  align-self: flex-end; /* Align to the right */
+  text-align: right; /* Right-align text */
+  /* Add other styling properties */
+}
+
+/* CSS for server reply */
+.server-reply {
+  align-self: flex-start; /* Align to the left */
+  text-align: left; /* Left-align text */
+  /* Add other styling properties */
+}
