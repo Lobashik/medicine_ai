@@ -316,6 +316,7 @@ header {
   align-items: end;
   overflow: hidden;
   border-top-right-radius: 9px;
+  overflow-y: auto;
 }
 .main .main__dialog .main__dialog__container .main__dialog__container__body .main__dialog__container__body_info {
   width: 100%;
